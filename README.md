@@ -56,7 +56,7 @@ The project uses the `weatherAUS.csv` dataset from [kaggle](https://www.kaggle.c
 - `min_samples_leaf`: 20 samples
 - `class_weight`: balanced (to handle class imbalance)
 
-**Train-Test Split**: 80-20 split with random_state=42
+**Train-Test Split**: 80-20 split
 
 ## Evaluation Metrics
 
@@ -125,3 +125,4 @@ python testing.py
    - Apply the same preprocessing to the new data
    - Generate predictions for whether it will rain tomorrow
    - Display a confusion matrix comparing predictions vs actual values
+

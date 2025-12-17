@@ -1,4 +1,4 @@
-# Weather Prediction Model
+# Weather Binary Classification Model
 
 A machine learning project that predicts whether it will rain tomorrow based on Australian weather data using Random Forest Classification.
 
@@ -125,4 +125,5 @@ python testing.py
    - Apply the same preprocessing to the new data
    - Generate predictions for whether it will rain tomorrow
    - Display a confusion matrix comparing predictions vs actual values
+
 

@@ -107,4 +107,21 @@ python main.py
 The model outputs:
 - Detailed classification report with precision, recall, and F1-scores
 - Separate F1 scores for predicting rain (Yes) and no rain (No)
+
 - Confusion matrix showing true positives, false positives, true negatives, and false negatives
+
+### Testing with New Data
+
+1. Prepare your test data in `test.csv` with the same features as the training data (including RainTomorrow for validation)
+
+2. Run the testing script:
+```bash
+python testing.py
+```
+
+3. The testing script will:
+   - Load the saved model and preprocessor
+   - Read the test data from `test.csv`
+   - Apply the same preprocessing to the new data
+   - Generate predictions for whether it will rain tomorrow
+   - Display a confusion matrix comparing predictions vs actual values
